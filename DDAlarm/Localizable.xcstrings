@@ -1,0 +1,75 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "About" : {
+      "extractionState" : "manual"
+    },
+    "Activity completed." : {
+      "extractionState" : "manual"
+    },
+    "Add Alarm" : {
+      "extractionState" : "manual"
+    },
+    "alarm" : {
+      "extractionState" : "manual"
+    },
+    "Alarm List" : {
+      "extractionState" : "manual"
+    },
+    "Cancel" : {
+      "extractionState" : "manual"
+    },
+    "create" : {
+      "extractionState" : "manual"
+    },
+    "enable" : {
+      "extractionState" : "manual"
+    },
+    "Enable notifications, please" : {
+      "extractionState" : "manual"
+    },
+    "end" : {
+      "extractionState" : "manual"
+    },
+    "Have a great day!" : {
+      "extractionState" : "manual"
+    },
+    "hello there!" : {
+      "extractionState" : "manual"
+    },
+    "let's add an alarm" : {
+      "extractionState" : "manual"
+    },
+    "No Alarms" : {
+      "extractionState" : "manual"
+    },
+    "off" : {
+      "extractionState" : "manual"
+    },
+    "on" : {
+      "extractionState" : "manual"
+    },
+    "Save" : {
+      "extractionState" : "manual"
+    },
+    "Set the alarm" : {
+      "extractionState" : "manual"
+    },
+    "Sound" : {
+      "extractionState" : "manual"
+    },
+    "start" : {
+      "extractionState" : "manual"
+    },
+    "The UI for this nice Alarm app was largely inspired by the amazing work of Anton Leogky." : {
+      "extractionState" : "manual"
+    },
+    "to Anton’s page" : {
+      "extractionState" : "manual"
+    },
+    "you did it! here you can manage your alarm, change time and other things" : {
+      "extractionState" : "manual"
+    }
+  },
+  "version" : "1.0"
+}
