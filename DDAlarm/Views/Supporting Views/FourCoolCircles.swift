@@ -67,6 +67,16 @@ struct FourCoolCircles: View {
             .offset(x: -screenWidth / 3, y: screenHeight / 4)
             .offset(x: offsetX[3], y: offsetY[3])
         }
+        .onReceive(timer) { _ in
+            withAnimation(.easeIn(duration: 40)) {
+                for i in 0..<offsetX.count {
+                    offsetX[i] = Double.random(in: -300...300)
+                }
+                for i in 0..<offsetY.count {
+                    offsetY[i] = Double.random(in: -300...300)
+                }
+            }
+        }
     }
 }
 
