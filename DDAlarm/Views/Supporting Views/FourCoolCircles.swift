@@ -7,9 +7,6 @@
 
 import SwiftUI
 
-let screenWidth = UIScreen.main.bounds.width
-let screenHeight = UIScreen.main.bounds.height
-
 struct CoolCircleView: View {
     let radius: CGFloat
     var color1 = yellow
