@@ -11,7 +11,8 @@ import SwiftUI
 struct DDAlarmApp: App {
     var body: some Scene {
         WindowGroup {
-            MainAlarmView()
+//            MainAlarmView()
+            AboutView()
         }
     }
 }

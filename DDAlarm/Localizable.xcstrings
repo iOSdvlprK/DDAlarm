@@ -71,6 +71,9 @@
         }
       }
     },
+    "add alarm" : {
+
+    },
     "Add Alarm" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -421,6 +424,9 @@
         }
       }
     },
+    "Hello, world!" : {
+
+    },
     "let's add an alarm" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -455,6 +461,9 @@
           }
         }
       }
+    },
+    "next" : {
+
     },
     "No Alarms" : {
       "extractionState" : "manual",
