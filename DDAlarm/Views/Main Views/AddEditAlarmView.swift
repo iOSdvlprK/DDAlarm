@@ -23,11 +23,11 @@ struct AddEditAlarmView: View {
                     YouDidItView()
                 }
                 
-                Text("ToBedWakeUpView")
+                ToBedWakeUpView(currentAlarmIndex: currentAlarmIndex, alarmModel: alarmModel)
             }
         }
         .onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                 withAnimation {
                     showYouDidItView = false
                 }
