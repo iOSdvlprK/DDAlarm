@@ -23,6 +23,7 @@ struct ToBedWakeUpView: View {
                 Grid {
                     GridRow {
                         TimeOfDayIcon(date: alarmModel.start)
+                            .font(.largeTitle)
                         
                         VStack(alignment: .leading) {
                             GrayedTextView(text: "start")
@@ -44,7 +45,7 @@ struct ToBedWakeUpView: View {
                             .foregroundStyle(alarmModel.activityColor)
                             .font(.headline)
                         
-                        Text("SelectActivityView")
+                        SelectActivityView(currentColorIndex: $alarmModel.colorIndex, currentActivity: $alarmModel.activity)
                     }
                     .padding(.vertical)
                     
@@ -57,7 +58,8 @@ struct ToBedWakeUpView: View {
                     }
                     
                     GridRow {
-                        TimeOfDayIcon(date: alarmModel.start)
+                        TimeOfDayIcon(date: alarmModel.end)
+                            .font(.largeTitle)
                         
                         VStack(alignment: .leading) {
                             TimePicker(time: $alarmModel.end, scale: 1.3)
