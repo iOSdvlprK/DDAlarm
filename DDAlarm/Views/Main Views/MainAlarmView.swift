@@ -9,16 +9,28 @@ import SwiftUI
 
 struct MainAlarmView: View {
     var body: some View {
-        TabView {
-            AddEditAlarmView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm())
-                .tabItem {
-                    Label("Alarms", systemImage: "alarm.fill")
+        if #available(iOS 18.0, *) {
+            TabView {
+                Tab("Alarms", systemImage: "alarm.fill") {
+                    AddEditAlarmView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm())
                 }
-            
-            AboutView()
-                .tabItem {
-                    Label("About", systemImage: "info.circle.fill")
+                
+                Tab("About", systemImage: "info.circle.fill") {
+                    AboutView()
                 }
+            }
+        } else {
+            TabView {
+                AddEditAlarmView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm())
+                    .tabItem {
+                        Label("Alarms", systemImage: "alarm.fill")
+                    }
+                
+                AboutView()
+                    .tabItem {
+                        Label("About", systemImage: "info.circle.fill")
+                    }
+            }
         }
     }
 }
