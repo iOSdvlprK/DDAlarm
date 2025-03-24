@@ -12,7 +12,7 @@ struct MainAlarmView: View {
         if #available(iOS 18.0, *) {
             TabView {
                 Tab("Alarms", systemImage: "alarm.fill") {
-                    AddEditAlarmView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm())
+                    ListOfTheAlarmsView(alarmViewModels: AlarmModel.DummyAlarmData())
                 }
                 
                 Tab("About", systemImage: "info.circle.fill") {
@@ -21,7 +21,7 @@ struct MainAlarmView: View {
             }
         } else {
             TabView {
-                AddEditAlarmView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm())
+                ListOfTheAlarmsView(alarmViewModels: AlarmModel.DummyAlarmData())
                     .tabItem {
                         Label("Alarms", systemImage: "alarm.fill")
                     }
