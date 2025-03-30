@@ -72,20 +72,8 @@ struct ToBedWakeUpView: View {
                     GridRow {
                         Text("")
                         
-                        HStack {
-                            Text("Sound")
-                                .fontWeight(.semibold)
-                            
-                            Text(alarmModel.sound.rawValue)
-                                .font(.caption)
-                                .fontWeight(.thin)
-                        }
-                        .padding(7)
-                        .overlay {
-                            Capsule()
-                                .stroke()
-                        }
-                        .contextMenu {
+                        // sound button
+                        Menu(content: {
                             ForEach(Sounds.allCases, id: \.self) { sound in
                                 Button(action: {
                                     alarmModel.sound = sound
@@ -94,7 +82,21 @@ struct ToBedWakeUpView: View {
                                 })
                             }
                             .padding(.vertical)
-                        }
+                        }, label: {
+                            HStack {
+                                Text("Sound")
+                                    .fontWeight(.semibold)
+                                
+                                Text(alarmModel.sound.rawValue)
+                                    .font(.caption)
+                                    .fontWeight(.thin)
+                            }
+                            .padding(7)
+                            .overlay {
+                                Capsule()
+                                    .stroke()
+                            }
+                        })
                     }
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
