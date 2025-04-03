@@ -4,10 +4,28 @@
     "About" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σχετικά με"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Acerca de esta aplicación"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noin"
           }
         },
         "fr" : {
@@ -28,6 +46,18 @@
             "value" : "앱 정보"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sobre"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -39,10 +69,28 @@
     "Activity completed." : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktivität abgeschlossen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η δραστηριότητα ολοκληρώθηκε."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Actividad completada."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toiminto suoritettu."
           }
         },
         "fr" : {
@@ -63,6 +111,18 @@
             "value" : "활동이 완료되었습니다."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktivitet fullført."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atividade concluída."
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -77,10 +137,28 @@
     "Add Alarm" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wecker hinzufügen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη συναγερμού"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añadir alarma"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää hälytys"
           }
         },
         "fr" : {
@@ -101,6 +179,18 @@
             "value" : "알람추가"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg til alarm"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar alarme"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -112,10 +202,28 @@
     "alarm" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alarm"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "τρομάζω"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "alarma"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "hälytys"
           }
         },
         "fr" : {
@@ -136,6 +244,18 @@
             "value" : "알람"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "alarm"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "alarme"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -147,10 +267,28 @@
     "Alarm List" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alarmliste"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λίστα συναγερμών"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lista de alarmas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hälytyslista"
           }
         },
         "fr" : {
@@ -171,6 +309,18 @@
             "value" : "알람목록"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alarmliste"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lista de Alarmes"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -182,10 +332,28 @@
     "Cancel" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Absagen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ματαίωση"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancelar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peruuttaa"
           }
         },
         "fr" : {
@@ -206,6 +374,18 @@
             "value" : "취소"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -217,10 +397,28 @@
     "create" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "erstellen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "δημιουργώ"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "crear"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "luoda"
           }
         },
         "fr" : {
@@ -241,6 +439,18 @@
             "value" : "알람 만들기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "skape"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "crio"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -252,10 +462,28 @@
     "enable" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ermöglichen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "επιτρέπω"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "habilitar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ota käyttöön"
           }
         },
         "fr" : {
@@ -276,6 +504,18 @@
             "value" : "활성화"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "muliggjøre"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "permitir"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -287,10 +527,28 @@
     "Enable notifications, please" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benachrichtigungen aktivieren, bitte"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ενεργοποιήστε τις ειδοποιήσεις, παρακαλώ"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Habilitar notificaciones, por favor"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota ilmoitukset käyttöön, kiitos"
           }
         },
         "fr" : {
@@ -311,6 +569,18 @@
             "value" : "알림을 활성화해주세요."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktiver varsler, vær så snill"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ative as notificações, por favor"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -322,10 +592,28 @@
     "end" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ende"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "τέλος"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "end"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "loppu"
           }
         },
         "fr" : {
@@ -346,6 +634,18 @@
             "value" : "종료"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "slutt"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fim"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -357,10 +657,28 @@
     "Have a great day!" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich wünsche ihnen einen wunderbaren Tag!"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Να έχεις μια υπέροχη μέρα!"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "¡Qué tengas un lindo día!"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hyvää päivän jatkoa!"
           }
         },
         "fr" : {
@@ -381,6 +699,18 @@
             "value" : "좋은 하루 되세요!"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ha en flott dag!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tenha um ótimo dia!"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -392,10 +722,28 @@
     "hello there!" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hallo!"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γειά σου!"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "¡Hola a todos!"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hei siellä!"
           }
         },
         "fr" : {
@@ -416,6 +764,18 @@
             "value" : "안녕하세요!"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hei der!"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "olá!"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -430,10 +790,28 @@
     "let's add an alarm" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fügen wir einen Wecker hinzu"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ας προσθέσουμε ξυπνητήρι"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "agreguemos una alarma"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lisätään hälytys"
           }
         },
         "fr" : {
@@ -454,6 +832,18 @@
             "value" : "알람추가"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "la oss legge til en alarm"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "vamos adicionar um alarme"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -468,10 +858,28 @@
     "No Alarms" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Alarme"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χωρίς συναγερμούς"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sin alarmas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei hälytyksiä"
           }
         },
         "fr" : {
@@ -492,6 +900,18 @@
             "value" : "알람없음"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen alarmer"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sem alarmes"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -503,7 +923,25 @@
     "off" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔕"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔕"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔕"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "🔕"
@@ -522,6 +960,18 @@
           }
         },
         "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔕"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "av"
+          }
+        },
+        "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "🔕"
@@ -538,7 +988,25 @@
     "on" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔔"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔔"
+          }
+        },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔔"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "🔔"
@@ -562,6 +1030,18 @@
             "value" : "🔔"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "på"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔔"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -573,10 +1053,28 @@
     "Save" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speichern"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθηκεύσετε"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guardar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallentaa"
           }
         },
         "fr" : {
@@ -597,6 +1095,18 @@
             "value" : "저장"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -608,10 +1118,28 @@
     "Set the alarm" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stell den Alarm ein"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βάλε ξυπνητήρι"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poner la alarma"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laita hälytys"
           }
         },
         "fr" : {
@@ -632,6 +1160,18 @@
             "value" : "알람설정"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stille inn alarmen"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Defina o alarme"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -643,10 +1183,28 @@
     "Sound" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sound"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ήχος"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sound"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ääni"
           }
         },
         "fr" : {
@@ -667,6 +1225,18 @@
             "value" : "소리"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyd"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Som"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -678,10 +1248,28 @@
     "start" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anfang"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "αρχή"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "start"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "alkaa"
           }
         },
         "fr" : {
@@ -702,6 +1290,18 @@
             "value" : "시작"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "start"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "começar"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -713,10 +1313,28 @@
     "The UI for this nice Alarm app was largely inspired by the amazing work of Anton Leogky." : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Benutzeroberfläche dieser netten Alarm-App wurde weitgehend von der erstaunlichen Arbeit von Anton Leogky inspiriert."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η διεπαφή χρήστη για αυτήν την ωραία εφαρμογή Alarm εμπνεύστηκε σε μεγάλο βαθμό από την εκπληκτική δουλειά του Anton Leogky."
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "La interfaz de usuario de esta agradable aplicación Alarma se inspiró en gran medida en el increíble trabajo de Anton Leogky"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tämän mukavan Alarm-sovelluksen käyttöliittymä on suurelta osin inspiroitunut Anton Leogkyn hämmästyttävästä työstä."
           }
         },
         "fr" : {
@@ -737,6 +1355,18 @@
             "value" : "이 멋진 알람 앱의 UI는 Anton Leogky의 놀라운 작업에서 크게 영감을 받았습니다."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "UI for denne fine Alarm-appen var i stor grad inspirert av det fantastiske arbeidet til Anton Leogky."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A interface do usuário para este belo aplicativo de alarme foi amplamente inspirada no incrível trabalho de Anton Leogky."
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -748,10 +1378,28 @@
     "to Anton’s page" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "auf Antons Seite"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "στη σελίδα του Anton"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "a la página de Anton"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Antonin sivulle"
           }
         },
         "fr" : {
@@ -772,6 +1420,18 @@
             "value" : "안톤의 페이지로"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "til Antons side"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "para a página de Anton"
+          }
+        },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -783,10 +1443,28 @@
     "you did it! here you can manage your alarm, change time and other things" : {
       "extractionState" : "manual",
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sie haben es geschafft! Hier können Sie Ihren Alarm verwalten, die Zeit ändern und andere Dinge"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "τα κατάφερες! εδώ μπορείς να διαχειριστείς το ξυπνητήρι σου, να αλλάξεις ώρα και άλλα πράγματα"
+          }
+        },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "¡lo hiciste! aquí puedes administrar tu alarma, cambiar la hora y otras cosas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teit sen! Täällä voit hallita herätystäsi, muuttaa aikaa ja muita asioita"
           }
         },
         "fr" : {
@@ -805,6 +1483,18 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "해냈습니다! 여기에서 알람을 관리하고 시간을 변경하는 등의 작업을 할 수 있습니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "du gjorde det! her kan du administrere alarmen, endre tid og andre ting"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "você conseguiu! aqui você pode gerenciar seu alarme, mudar a hora e outras coisas"
           }
         },
         "tr" : {
