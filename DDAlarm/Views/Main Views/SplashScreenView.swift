@@ -62,5 +62,5 @@ struct SplashScreenView: View {
 
 #Preview {
     SplashScreenView()
-        .environmentObject(LocalNotificationsManager())
+        .environmentObject(LocalNotificationManager())
 }

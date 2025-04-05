@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct DDAlarmApp: App {
-    @StateObject var lnManager = LocalNotificationsManager()
+    @StateObject var lnManager = LocalNotificationManager()
     
     var body: some Scene {
         WindowGroup {

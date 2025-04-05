@@ -1,5 +1,5 @@
 //
-//  LocalNotificationsManager.swift
+//  LocalNotificationManager.swift
 //  DDAlarm
 //
 //  Created by joe on 4/4/25.
@@ -9,7 +9,7 @@ import Foundation
 import NotificationCenter
 
 @MainActor
-class LocalNotificationsManager: NSObject, ObservableObject, UNUserNotificationCenterDelegate {
+class LocalNotificationManager: NSObject, ObservableObject, UNUserNotificationCenterDelegate {
     let notificationCenter = UNUserNotificationCenter.current()
     @Published var isAuthorized = false
     
@@ -18,6 +18,8 @@ class LocalNotificationsManager: NSObject, ObservableObject, UNUserNotificationC
             .requestAuthorization(options: [
                 .sound, .badge, .alert
             ])
+        
+        await getCurrentSettings()
     }
     
     func getCurrentSettings() async {

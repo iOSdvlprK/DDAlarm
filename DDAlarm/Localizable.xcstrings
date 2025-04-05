@@ -1,6 +1,15 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
+    "%@" : {
+
+    },
+    "+" : {
+
+    },
     "About" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -130,9 +139,6 @@
           }
         }
       }
-    },
-    "add alarm" : {
-
     },
     "Add Alarm" : {
       "extractionState" : "manual",
@@ -328,6 +334,9 @@
           }
         }
       }
+    },
+    "Alarms" : {
+
     },
     "Cancel" : {
       "extractionState" : "manual",
@@ -784,9 +793,6 @@
         }
       }
     },
-    "Hello, world!" : {
-
-    },
     "let's add an alarm" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -851,9 +857,6 @@
           }
         }
       }
-    },
-    "next" : {
-
     },
     "No Alarms" : {
       "extractionState" : "manual",

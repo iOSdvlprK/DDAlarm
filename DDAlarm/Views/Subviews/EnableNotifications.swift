@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct EnableNotifications: View {
+    @EnvironmentObject var lnManager: LocalNotificationManager
+    
     var body: some View {
         ZStack {
             FourCoolCircles()
@@ -20,7 +22,7 @@ struct EnableNotifications: View {
                 .multilineTextAlignment(.center)
                 Spacer()
                 Button(action: {
-                    // TODO: enable
+                    lnManager.openSettings()
                 }, label: {
                     ButtonView(text: "enable")
                         .padding()
@@ -32,4 +34,5 @@ struct EnableNotifications: View {
 
 #Preview {
     EnableNotifications()
+        .environmentObject(LocalNotificationManager())
 }
