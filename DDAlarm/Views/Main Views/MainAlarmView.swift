@@ -9,61 +9,35 @@ import SwiftUI
 
 struct MainAlarmView: View {
     @EnvironmentObject var lnManager: LocalNotificationManager
-    @Environment(\.scenePhase) var scenePhase
     
     // every time the scene phase changes this will update
     // use onChanged
+    @Environment(\.scenePhase) var scenePhase
+    
     var body: some View {
-        if #available(iOS 18.0, *) {
+        TabView {
             if lnManager.isAuthorized {
-                TabView {
-                    Tab("Alarms", systemImage: "alarm.fill") {
-                        ListOfTheAlarmsView(alarmViewModels: AlarmModel.DummyAlarmData())
+                ListOfTheAlarmsView(alarmViewModels: AlarmModel.DummyAlarmData())
+                    .tabItem {
+                        Label("Alarms", systemImage: "alarm.fill")
                     }
-                    
-                    Tab("About", systemImage: "info.circle.fill") {
-                        AboutView()
+                
+                AboutView()
+                    .tabItem {
+                        Label("About", systemImage: "info.circle.fill")
                     }
-                }
-                .ignoresSafeArea()
-                .task {
-                    try? await lnManager.requestAuthorization()
-                }
-                .onChange(of: scenePhase) { oldValue, newValue in
-                    if newValue == .active {
-                        Task {
-                            await lnManager.getCurrentSettings()
-                        }
-                    }
-                }
             } else {
                 EnableNotifications()
             }
-        } else {
-            TabView {
-                if lnManager.isAuthorized {
-                    ListOfTheAlarmsView(alarmViewModels: AlarmModel.DummyAlarmData())
-                        .tabItem {
-                            Label("Alarms", systemImage: "alarm.fill")
-                        }
-                    
-                    AboutView()
-                        .tabItem {
-                            Label("About", systemImage: "info.circle.fill")
-                        }
-                } else {
-                    EnableNotifications()
-                }
-            }
-            .ignoresSafeArea()
-            .task {
-                try? await lnManager.requestAuthorization()
-            }
-            .onChange(of: scenePhase) { oldValue, newValue in
-                if newValue == .active {
-                    Task {
-                        await lnManager.getCurrentSettings()
-                    }
+        }
+        .ignoresSafeArea()
+        .task {
+            try? await lnManager.requestAuthorization()
+        }
+        .onChange(of: scenePhase) { oldValue, newValue in
+            if newValue == .active {
+                Task {
+                    await lnManager.getCurrentSettings()
                 }
             }
         }
