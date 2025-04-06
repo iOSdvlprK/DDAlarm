@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AlarmModel: Identifiable {
+struct AlarmModel: Identifiable, Codable {
     let id = UUID().uuidString
     
     let title: String
