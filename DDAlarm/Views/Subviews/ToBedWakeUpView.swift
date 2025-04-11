@@ -73,7 +73,6 @@ struct ToBedWakeUpView: View {
                         GridRow {
                             Text("")
                             
-                            // TODO: sound button
                             SoundMenuViewFromButton(alarmModel: $alarmModel)
                         }
                     }
@@ -92,5 +91,12 @@ struct ToBedWakeUpView: View {
 }
 
 #Preview {
-    ToBedWakeUpView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm())
+    ZStack {
+        Color
+            .gray
+            .opacity(0.3)
+            .ignoresSafeArea()
+        
+        ToBedWakeUpView(currentAlarmIndex: nil, alarmModel: .DefaultAlarm())
+    }
 }
