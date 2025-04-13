@@ -57,8 +57,8 @@ struct ListOfTheAlarmsView: View {
             print("Remove request from \(lnManager.alarmViewModels[index].id)")
         }
         
-        // TODO: next remove from the alarmViewModel
-        print("Removing from alarmViewModels")
+        // Removing from alarmViewModel
+        lnManager.alarmViewModels.remove(atOffsets: offsets)
     }
 }
 

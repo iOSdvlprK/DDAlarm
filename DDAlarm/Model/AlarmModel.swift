@@ -35,6 +35,10 @@ struct AlarmModel: Identifiable, Codable {
         DateToTimeModel(date: end)
     }
     
+    var endDateComponents: DateComponents {
+        Calendar.current.dateComponents([.hour, .minute], from: self.end)
+    }
+    
     static func DefaultAlarm() -> AlarmModel {
         AlarmModel(
             title: "Activity completed.",
