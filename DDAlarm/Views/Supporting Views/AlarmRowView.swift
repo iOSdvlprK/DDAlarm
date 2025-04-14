@@ -31,15 +31,15 @@ struct AlarmRowView: View {
                 TheToggleView(isOn: .constant(lnManager.alarmViewModels[i].alarmEnabled))
             }
         }
-        onChange(of: model.alarmEnabled) { _, alarmEnabled in
+        .onChange(of: model.alarmEnabled) { _, alarmEnabled in
             if alarmEnabled {
                 print("Enable alarm")
-                // TODO: enable alarm
-                // TODO: need schedule function
+                Task {
+                    await lnManager.schedule(localNotification: model)
+                }
             } else {
                 print("Disable alarm")
-                // TODO: disable alarm
-                // TODO: remove request
+                lnManager.removeRequest(id: model.id)
             }
         }
     }
