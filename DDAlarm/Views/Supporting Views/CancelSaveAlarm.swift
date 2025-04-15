@@ -11,11 +11,15 @@ struct CancelSaveAlarm: View {
     let currentAlarmIndex: Int?
     @Binding var alarmModel: AlarmModel
     
+    @EnvironmentObject var lnManager: LocalNotificationManager
+    
+    @Environment(\.presentationMode) var presentation
+    
     var body: some View {
         HStack {
             // cancel
             Button(action: {
-                print("Cancel - todo")
+                self.presentation.wrappedValue.dismiss()
             }, label: {
                 Text("Cancel")
             })
@@ -26,11 +30,12 @@ struct CancelSaveAlarm: View {
             Button(action: {
                 print("Save - todo")
                 if let currentAlarmIndex = currentAlarmIndex {
-                    // TODO: edit alarm to view model
-                    print("\(currentAlarmIndex)")
+                    // save alarm
+                    lnManager.alarmViewModels[currentAlarmIndex] = alarmModel
                 } else {
-                    // TODO: append alarm to view model
+                    lnManager.safeAppend(localNotification: alarmModel)
                 }
+                self.presentation.wrappedValue.dismiss()
             }, label: {
                 Text("Save")
             })
@@ -40,4 +45,5 @@ struct CancelSaveAlarm: View {
 
 #Preview {
     CancelSaveAlarm(currentAlarmIndex: nil, alarmModel: .constant(.DefaultAlarm()))
+        .environmentObject(LocalNotificationManager())
 }

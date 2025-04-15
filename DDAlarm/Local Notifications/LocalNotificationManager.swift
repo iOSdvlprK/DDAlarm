@@ -108,4 +108,19 @@ class LocalNotificationManager: NSObject, ObservableObject, UNUserNotificationCe
             pendingAlarms.remove(at: index)
         }
     }
+    
+    func safeAppend(localNotification: AlarmModel) {
+        if let index = alarmViewModels.firstIndex(where: { $0.id == localNotification.id }) {
+            print("Alarm already exists so do not append...")
+            print("Update the alarm")
+            
+            // update existing alarm
+            alarmViewModels[index] = localNotification
+        } else {
+            alarmViewModels.append(localNotification)
+        }
+        
+        // sort alarmViewModels according to end time
+        alarmViewModels = alarmViewModels.sorted(by: { $0.endTime < $1.endTime})
+    }
 }
