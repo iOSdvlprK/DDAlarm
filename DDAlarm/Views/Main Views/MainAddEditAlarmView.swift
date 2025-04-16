@@ -15,7 +15,7 @@ struct MainAddEditAlarmView: View {
     
     var body: some View {
         TabView(selection: $selectedTab) {
-            AddEditAlarmView(currentAlarmIndex: currentAlarmIndex, alarmModel: alarmModel)
+            AddEditAlarmView(currentAlarmIndex: currentAlarmIndex)
                 .tag("One")
             
             AddEditCircularAlarmView(currentAlarmIndex: currentAlarmIndex, alarmModel: alarmModel)

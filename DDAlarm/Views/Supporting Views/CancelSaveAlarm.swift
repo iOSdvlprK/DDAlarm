@@ -35,6 +35,16 @@ struct CancelSaveAlarm: View {
                 } else {
                     lnManager.safeAppend(localNotification: alarmModel)
                 }
+                
+                // schedule alarm
+                Task {
+                    if alarmModel.alarmEnabled {
+                        await lnManager.schedule(localNotification: alarmModel)
+                    } else {
+                        lnManager.removeRequest(id: alarmModel.id)
+                    }
+                }
+                
                 self.presentation.wrappedValue.dismiss()
             }, label: {
                 Text("Save")
