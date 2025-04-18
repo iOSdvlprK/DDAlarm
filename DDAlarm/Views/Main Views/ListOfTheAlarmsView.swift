@@ -26,6 +26,7 @@ struct ListOfTheAlarmsView: View {
                                 .padding(.vertical)
                         })
                     }
+                    .onDelete(perform: deleteMe)
                 }
                 
                 FourCoolCircles()
@@ -34,7 +35,7 @@ struct ListOfTheAlarmsView: View {
             .navigationTitle("Alarm List")
             .sheet(isPresented: $isActive) {
                 // edit the currentIndex alarm
-                AddEditAlarmView(currentAlarmIndex: currentIndex)
+                WrapAddEditAlarmView(currentAlarmIndex: $currentIndex)
             }
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
@@ -64,6 +65,14 @@ struct ListOfTheAlarmsView: View {
         
         // Removing from alarmViewModel
         lnManager.alarmViewModels.remove(atOffsets: offsets)
+    }
+}
+
+struct WrapAddEditAlarmView: View {
+    @Binding var currentAlarmIndex: Int?
+    
+    var body: some View {
+        AddEditAlarmView(currentAlarmIndex: currentAlarmIndex)
     }
 }
 
