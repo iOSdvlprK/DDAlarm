@@ -59,13 +59,32 @@ class LocalNotificationManager: NSObject, ObservableObject, UNUserNotificationCe
     
     override init() {
         super.init()
-        // TODO: want alarm to go off when app is also active
+        // necessary in order for the alarm to go off
+        // when app is in the foreground
+        notificationCenter.delegate = self
         
         // alarm view model - persistance
         guard let data = UserDefaults.standard.data(forKey: itemKey),
             let savedItems = try? JSONDecoder().decode([AlarmModel].self, from: data)
         else { return }
         self.alarmViewModels = savedItems
+    }
+    
+    // delegate function
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification) async -> UNNotificationPresentationOptions {
+        
+        // after alarm goes off disable alarm
+        let notificationId = notification.request.identifier
+        
+        if let index = alarmViewModels.firstIndex(where: {
+            $0.id == notificationId
+        }) {
+            // disable alarm
+            alarmViewModels[index].alarmEnabled = false
+        }
+        
+        pendingAlarms = await notificationCenter.pendingNotificationRequests()
+        return [.sound, .banner]
     }
     
     func getPendingAlarms() async {
