@@ -58,7 +58,6 @@ struct ListOfTheAlarmsView: View {
     func deleteMe(offsets: IndexSet) {
         // remove from pending alarms
         for index in offsets {
-            // TODO: remove request for given id
             print("Remove request from \(lnManager.alarmViewModels[index].id)")
             lnManager.removeRequest(id: lnManager.alarmViewModels[index].id)
         }
@@ -70,9 +69,14 @@ struct ListOfTheAlarmsView: View {
 
 struct WrapAddEditAlarmView: View {
     @Binding var currentAlarmIndex: Int?
+    @EnvironmentObject var lnManager: LocalNotificationManager
     
     var body: some View {
-        AddEditAlarmView(currentAlarmIndex: currentAlarmIndex)
+        if let currentAlarmIndex = currentAlarmIndex {
+            AddEditAlarmView(currentAlarmIndex: currentAlarmIndex, alarmModel: lnManager.alarmViewModels[currentAlarmIndex])
+        } else {
+            AddEditAlarmView(currentAlarmIndex: currentAlarmIndex, alarmModel: .DefaultAlarm())
+        }
     }
 }
 
