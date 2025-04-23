@@ -19,6 +19,8 @@ struct AlarmRowView: View {
                 .foregroundStyle(model.activityColor)
                 .font(.title)
             
+            Spacer()
+            
             Text("\(getTimeFromDate(date: model.start))-\(getTimeFromDate(date: model.end))")
                 .font(.title)
                 .fontWeight(model.alarmEnabled ? .regular : .thin)

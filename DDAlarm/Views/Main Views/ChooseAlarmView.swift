@@ -21,13 +21,13 @@ struct ChooseAlarmView: View {
             if addEditViewType == .standard {
                 AddEditAlarmView(currentAlarmIndex: currentAlarmIndex, alarmModel: lnManager.alarmViewModels[currentAlarmIndex])
             } else {
-                Text("Use circular view")
+                AddEditCircularAlarmView(currentAlarmIndex: currentAlarmIndex, alarmModel: lnManager.alarmViewModels[currentAlarmIndex])
             }
         } else {
             if addEditViewType == .standard {
                 AddEditAlarmView(currentAlarmIndex: currentAlarmIndex, alarmModel: .DefaultAlarm())
             } else {
-                Text("Use circular view")
+                AddEditCircularAlarmView(currentAlarmIndex: currentAlarmIndex, alarmModel: .DefaultAlarm())
             }
         }
     }
