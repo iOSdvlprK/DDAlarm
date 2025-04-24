@@ -1456,9 +1456,6 @@
         }
       }
     },
-    "Use circular view" : {
-
-    },
     "you did it! here you can manage your alarm, change time and other things" : {
       "extractionState" : "manual",
       "localizations" : {
