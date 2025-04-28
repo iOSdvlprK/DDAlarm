@@ -27,8 +27,7 @@ struct ListOfTheAlarmsView: View {
                         .onDelete(perform: deleteMe)
                     }
                     
-                    // TODO: change this
-                    Text("Buttons to toggle")
+                    SelectView(width: 50, addEditViewType: $addEditViewType, isActive: $isActive)
                 }
                 
                 FourCoolCircles()
